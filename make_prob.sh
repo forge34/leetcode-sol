@@ -13,5 +13,6 @@ PROBLEM_NAME=$1
 # Create the directory and the empty README.md
 mkdir -p "$PROBLEM_NAME"
 touch "$PROBLEM_NAME/README.md"
+touch "$PROBLEM_NAME/solution.py"
 
 echo "Created directory '$PROBLEM_NAME' with an empty README.md"
